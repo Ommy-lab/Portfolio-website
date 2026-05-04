@@ -1,0 +1,124 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+}
+
+/* MAIN CONTAINER */
+body {
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #1565c0;
+    margin-top: 20px;
+    border-bottom: 2px solid #1565c0;
+    padding-bottom: 5px;
+}
+
+/* NAVBAR (convert your links into clean bar) */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #1976d2;
+    padding: 6px 10px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* HOVER EFFECT */
+a:hover {
+    background-color: #0d47a1;
+    transform: scale(1.05);
+}
+
+/* CONTACT INFO */
+p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* FORM CONTAINER */
+form {
+    background: rgb(159, 170, 235);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+/* INPUTS & TEXTAREA */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+/* RADIO & CHECKBOX */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+/* BUTTONS */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SUBMIT BUTTON */
+input[type="submit"] {
+    background-color: #1976d2;
+    color: white;
+}
+
+/* RESET BUTTON */
+input[type="reset"] {
+    background-color: #e94a4a;
+    color: white;
+}
+
+/* BUTTON HOVER */
+input[type="submit"]:hover {
+    background-color: #0d47a1;
+}
+
+input[type="reset"]:hover {
+    background-color: #e94a4a;
+}

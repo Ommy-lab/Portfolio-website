@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;              /* Centers content */
+    padding: 20px;
+    background: linear-gradient(to bottom, #c1ab81, #cdc2b8);   /* Page background */
+    color: #9f1a1a;                 /* Default text color */
+} 
+
+h1 {
+    color: #9f1a1a;
+    border-bottom: 2px solid #9f1a1a;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+li:hover {
+    color: #616bda;
+    background-color: #c5ac7c;
+    transform: scale(1.05);      /* Slight zoom */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 2px solid #9f1a1a;
+}
+th{
+    background-color: #616bda;
+    color: white;
+    padding: 10px;
+}
+ img{
+    width: 150px;
+    
+    border: 2px ;
+    padding: 5px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;       /* Removes underline */
+    color: white;
+    background-color: black;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    transition: 0.3s;            /* Smooth hover effect */
+}
+hi:hover {transition:all 0.3s ease-in-out;
+    text-align: center;
+    color: #9f1a1a;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+tr:hover {transition:all 0.3s ease-in-out;
+    background-color: #c5ac7c;
+    transform: scale(1.05);      /* Slight zoom */
+}

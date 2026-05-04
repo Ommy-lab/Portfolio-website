@@ -1,0 +1,117 @@
+/**PAGE STYLE**/
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(black);
+    margin: 0;
+    padding: 0;
+}
+
+/**TITLE**/
+h1{
+    margin: auto;
+    text-align: center;
+    color:rgb(29, 129, 113);
+}
+
+/**SECTION CONTAINER**/
+section{
+background-color:pink;
+margin: 20px;
+padding: 20px;
+border: 20px;
+border-radius: 20px; /**rounded corners**/
+transition: 0.1s;
+}
+
+section:hover{
+    transform: scale(1.02);
+}
+
+
+/**BUTTON**/
+button{
+    background-color: pink;
+    border: 2px solid rgb(114, 3, 3);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+
+/**IMAGE**/
+img{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/**HEADINGS**/
+h2{
+    text-align: center;
+    color: rgb(50, 50, 51);
+    border-bottom: 2px solid pink;
+}
+
+h3{
+    text-align: center;
+    color:rgb(155, 87, 87);
+    border-bottom: 2px solid pink;
+}
+
+
+/**PARAGRAPHY**/
+p{
+    text-align:start;
+    color: rgb(110, 3, 110);
+}
+
+/**SKILLS & HOBBIES**/
+ul{
+    margin: auto;
+    list-style-type: disc;
+    color: purple;
+    width: fit-content;
+}
+
+
+/**EDUCATION**/
+table, th, td{
+    border: 1px solid rgb(19, 18, 18);
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: rgb(59, 133, 151);
+    text-align:center;
+    color: rgb(34, 10, 34);
+    transition: 0.3s;
+}
+
+td{
+    background-color: rgb(12, 12, 12);
+    text-align:center;
+    padding: 30px;
+    color: rgb(188, 199, 204);;
+}
+
+/**LINKS**/
+   a{
+    color: rgb(10, 129, 46);
+   }
+
+   /**hover effect**/
+   a:hover{
+    color: rgb(207, 9, 2);
+    text-decoration: underline;
+    transition: 0.3s;
+    transform: scale(0.12);
+   }
+
+   nav{
+    text-align: center;
+   }

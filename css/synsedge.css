@@ -1,0 +1,108 @@
+/**PAGE STYLE**/
+body{
+    font-family: Times New Roman, sans-serif;
+    background : linear-gradient(red, grey, cyan,  orange, yellow, green, blue, violet);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/**NAVIGATION**/
+nav{
+    display: flex;
+justify-content: center;
+}
+
+/**TITLE**/
+h1{
+    text-align: center;
+    color: black;
+}
+
+/**SECTION CONTAINER**/
+section{
+background: linear-gradient(grey, cyan, indigo);
+margin: 20px;
+padding: 20px;
+border: 20px;
+border-radius: 20px; /**rounded corners**/
+box-shadow: 0 0 10px gray; /**box shadow**/
+}
+
+
+
+/**IMAGE**/
+img{
+    width: 150px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/**HEADINGS**/
+h2{
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+/**PARAGRAPHY**/
+p{
+    text-align:justify;
+    color: indigo;
+}
+
+/**SKILLS & HOBBIES**/
+ul{
+    margin-left: auto;
+    list-style-type: disc;
+    color: indigo;
+}
+
+
+li{
+    list-style-type: upper-roman;
+    color: indigo;;
+    margin-left: auto;
+}
+
+/**EDUCATION**/
+table, th, td{
+    border: 1px solid chocolate;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: white;
+    color: indigo;
+}
+
+td{
+    background-color: white;
+    text-align:center;
+    padding: 30px;
+    color: indigo;
+}
+
+/**LINKS**/
+   a{
+    color: black;
+   }
+
+   /**hover effect**/
+   a:hover{
+    color: gray;
+    text-decoration: overline;
+   }
+
+

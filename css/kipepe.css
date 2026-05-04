@@ -1,0 +1,139 @@
+/**PAGE STYLE**/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(pink, violet, indigo, violet, pink);
+   font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+/**TITLE**/
+h1{
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+/**SECTION CONTAINER**/
+section{
+background-color: rgba(225, 225, 225, 0.8);
+margin: 20px;
+padding: 20px;
+border: 20px;
+border-radius: 20px; /**rounded corners**/
+transition: 0.1s;
+}
+
+section:hover{
+    transform: scale(1.02);
+}
+
+
+/**BUTTON**/
+button{
+    background-color: pink;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform:scale(1.0);
+    background-color: blue;
+}
+
+
+/**IMAGE**/
+img{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/**HEADINGS**/
+h2{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+h3{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+
+/**PARAGRAPHY**/
+p{
+    text-align: center;
+    color: purple;
+}
+
+/**SKILLS & HOBBIES**/
+ul{
+    margin: auto;
+    list-style-type: disc;
+    color: purple;
+    width: fit-content;
+}
+
+ol{
+    margin: auto;
+    width: fit-content;
+    list-style-type: upper-roman;
+    color: purple;
+}
+
+/**EDUCATION**/
+table, th, td{
+    border: 1px solid blue;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: white;
+    text-align:center;
+    color: purple;
+    transition: 0.3s;
+}
+
+td{
+    background-color: white;
+    text-align:center;
+    padding: 30px;
+    color: purple;
+
+}
+
+td:hover{
+    background-color: pink;
+}
+
+tr:hover{
+    background-color: pink;
+}
+
+/**LINKS**/
+   a{
+    color: purple;
+   }
+
+   /**hover effect**/
+   a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+    transform: scale(0.12);
+   }
+
+   nav{
+    text-align: center;
+   }
+

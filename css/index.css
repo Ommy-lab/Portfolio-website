@@ -1,0 +1,70 @@
+/* Body */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Section titles */
+h2 {
+    color: #2c3e50;
+    margin-left: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 925px;
+    margin: 20px auto;
+}
+
+/* Card style */
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    max-width: 900px;
+
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Navigation links */
+a {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 15px;
+    background: #ff7a18;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Hover */
+a:hover {
+    background: #ffb347;
+    transform: scale(1.05);
+}
+
+/* Image */
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
